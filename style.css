@@ -1,0 +1,76 @@
+
+html,
+body {
+  height: 100%;
+  margin:0;
+}
+
+.content {
+  background-color: white;
+  padding-top: 100px
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#home {
+  background-image: url(triangles.png);
+  height: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 230px 0;
+
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", san-serif;
+
+}
+
+@media only screen and (max-device-width: 1366px) {
+  #home {
+    background-attachment: scroll;
+  }
+}
+
+#home h1 {
+  letter-spacing: 4px;
+  font-size: 80px;
+  font-weight: 800;
+}
+
+#home h4 {
+  font-weight: 400;
+  padding: 20px;
+}
+
+.social_links a {
+	padding: 5px;
+}
+
+.social_links a :hover{
+	color: white;
+	border: 1px solid white;
+	background-color: rgb(51, 51, 51);
+}
+
+.fa {
+	color: rgb(139, 139, 139);
+	border: 1px solid rgb(139, 139, 139);
+	padding: 8px;
+	border-radius: 50%;
+	font-size: 16px;
+}
+
+.footer {
+	margin-top: 50px;
+	padding: 10px 0;
+}
+
+
+
+
+
+
