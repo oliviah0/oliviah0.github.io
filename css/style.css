@@ -188,3 +188,35 @@ a:hover, a:focus, a:active {
 .table {
   color: #868e96;
 }
+
+.card {
+  margin: 5px;
+  min-height: 380px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.project-cards {
+  display: flex;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.card-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-self: flex-end; */
+}
+
+.image-preview {
+  margin: 10px;
+  border: solid black;
+  border-width: thin;
+}

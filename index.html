@@ -12,8 +12,8 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <script src="https://kit.fontawesome.com/c3d67161de.js"></script>
   <link href="css/style.css" rel="stylesheet">
@@ -26,8 +26,7 @@
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Olivia Ho</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-          src="assets/user_img.png" alt="">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/user_img.png" alt="">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -57,7 +56,8 @@
         <div class="subheading mb-5">Full Stack Software Engineer · San Francisco
         </div>
         <p class="lead mb-5">
-          I am an aspiring Full Stack Engineer. I am currently an information systems analyst where I enjoy pursuing
+          I am an aspiring Full Stack Software Engineer. I am currently an information systems analyst where I enjoy
+          pursuing
           every day problems that cause inefficiency and automating them. Throughout my career, I found it rewarding to
           translate complex business requirements into scalable long-term solutions especially problems related to data
           architecture. I am now ready to take my interest and experience in this area to the next level as a Full Stack
@@ -70,7 +70,7 @@
           <a href="https://www.github.com/oliviah0/">
             <i class="fab fa-github"></i>
           </a>
-          <a href="assets/Olivia_Ho_Resume.pdf">
+          <a href="assets/Resume_0719.pdf">
             <i class="fas fa-file-alt"></i>
           </a>
           <a href="mailto:olivia.ho45@gmail.com">
@@ -85,18 +85,172 @@
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
         <h3 class="mb-5">Projects</h3>
-        <h4><i class="fas fa-tools"></i> Under Construction ...</h4>
 
-        <!-- <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Buffalo</h3>
-            <div class="subheading mb-3">Python, Flask, SQLAlchemy, Jinja</div>
-            <p>Engineered a Python-based Twitter clone including features for posting messages, liking posts, following users, handling account details, and login/logout authentication.</p>
+        <div class="project-cards">
+          <div class="row">
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <div class="card-top">
+                        <h5 class="card-title">Jobly</h5>
+                        <p class="card-text">A full-stack <u>job posting and job application website.</u> Users can create an account,
+                          log-in, search for companies, search for jobs and apply to them. Companies can post jobs. Data is
+                          stored
+                          in a Postgres database.</p>
+                        <p>
+                          <span class="badge badge-info">JavaScript</span>
+                          <span class="badge badge-info">React</span>
+                          <span class="badge badge-info">Postgres</span>
+                          <span class="badge badge-info">Node</span>
+                          <span class="badge badge-info">Express</span>
+                          <span class="badge badge-info">HTML</span>
+                          <span class="badge badge-info">CSS</span>
+                        </p>
+                      </div>
+                      <div class="card-buttons">
+                        <!-- <button type="button" class="btn btn-light">Github</button> -->
+                        <button type="button" class="btn btn-light" data-toggle="modal"
+                          data-target="#joblyModal">Preview</button>
+                      </div>
+                    </div>
+                  </div>
+              
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <div class="card-top">
+                        <h5 class="card-title">Buffalo</h5>
+                        <p class="card-text">A Python-based <u>Twitter clone</u> including features for posting messages, liking posts,
+                          following users, handling account details, and login/logout authentication.</p>
+                        <p>
+                          <span class="badge badge-info">Python</span>
+                          <span class="badge badge-info">Flask</span>
+                          <span class="badge badge-info">SQLAlchemy</span>
+                          <span class="badge badge-info">Postgres</span>
+                          <span class="badge badge-info">Jinja</span>
+                          <span class="badge badge-info">HTML</span>
+                          <span class="badge badge-info">CSS</span>
+                        </p>
+                      </div>
+                      <div class="card-buttons">
+                        <!-- <button type="button" class="btn btn-light">Github</button> -->
+                        <button type="button" class="btn btn-light" data-toggle="modal"
+                          data-target="#buffaloModal">Preview</button>
+                      </div>
+                    </div>
+                  </div>
+        
+
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <div class="card-top">
+                        <h5 class="card-title">Buffalo Watch</h5>
+                        <p class="card-text">A front-end <u>stock tracking web application.</u> Users can search stocks and view
+                          React-vis graphs to track daily, weekly, or monthly changes. Users have the ability to follow/unfollow
+                          stocks.</p>
+                        <p>
+                          <span class="badge badge-info">JavaScript</span>
+                          <span class="badge badge-info">React</span>
+                          <span class="badge badge-info">React-Vis</span>
+                          <span class="badge badge-info">HTML</span>
+                          <span class="badge badge-info">CSS</span>
+                        </p>
+                      </div>
+                      <div class="card-buttons">
+                        <!-- <button type="button" class="btn btn-light">Github</button> -->
+                        <button type="button" class="btn btn-light" data-toggle="modal"
+                          data-target="#buffaloWatchModal">Preview</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2019</span>
+         
+
+       
+         
+
+          <div class="modal fade" id="buffaloModal" tabindex="-1" role="dialog"
+            aria-labelledby="buffaloModalScrollableTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalScrollableTitle">Buffalo Preview</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body text-center">
+                  <img class="img-fluid image-preview" src="assets/buffalo/buffalo-home.png">
+                  <img class="img-fluid image-preview" src="assets/buffalo/buffalo-signup.png">
+                  <img class="img-fluid image-preview" src="assets/buffalo/buffalo-home-search.png">
+                  <img class="img-fluid image-preview" src="assets/buffalo/buffalo-requests.png">
+                  <img class="img-fluid image-preview" src="assets/buffalo/buffalo-following.png">
+                  <img class="img-fluid image-preview" src="assets/buffalo/buffalo-edit-profile.png">
+                  <img class="img-fluid image-preview" src="assets/buffalo/buffalo-404.png">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
           </div>
-        </div> -->
+
+          <div class="modal fade" id="buffaloWatchModal" tabindex="-1" role="dialog"
+            aria-labelledby="buffaloWatchModalScrollableTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalScrollableTitle">Buffalo Preview</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body text-center">
+                  <img class="img-fluid image-preview" src="assets/buffalo-watch/buffalo-watch-home.png">
+                  <img class="img-fluid image-preview" src="assets/buffalo-watch/buffalo-watch-search.png">
+                  <img class="img-fluid image-preview" src="assets/buffalo-watch/buffalo-watch-amd.png">
+                  <img class="img-fluid image-preview" src="assets/buffalo-watch/buffalo-watch-wday.png">
+                  <img class="img-fluid image-preview" src="assets/buffalo-watch/buffalo-watch-wday-1m.png">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="modal fade" id="joblyModal" tabindex="-1" role="dialog"
+            aria-labelledby="joblyModalScrollableTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalScrollableTitle">Buffalo Preview</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body text-center">
+                  <img class="img-fluid image-preview" src="assets/jobly/jobly-launch.png">
+                  <img class="img-fluid image-preview" src="assets/jobly/jobly-login.png">
+                  <img class="img-fluid image-preview" src="assets/jobly/jobly-home.png">
+                  <img class="img-fluid image-preview" src="assets/jobly/jobly-jobs.png">
+                  <img class="img-fluid image-preview" src="assets/jobly/jobly-companies.png">
+                  <img class="img-fluid image-preview" src="assets/jobly/jobly-company.png">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
     </section>
 
     <hr class="m-0">
@@ -162,8 +316,12 @@
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
 </body>
 
